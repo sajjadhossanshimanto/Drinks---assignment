@@ -1,0 +1,87 @@
+/* search box section  */
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.search-box {
+    padding: 5px 10px;
+    border: 1px solid #ff6a005a;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* main section  */
+.drinkNcard-section {
+    display: flex;
+}
+
+/* drink list section  */
+.drink-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    /* justify-content: ; */
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    border: 1px solid #ff6a005a;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.card>img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container {
+    width: 15%;
+}
+
+
+.card-body>a {
+    text-decoration: none;
+}
+
+.errorText {
+    font-weight: bold;
+    width: 80%;
+    height: 100%;
+    margin: 300px auto;
+    text-align: center;
+}
+
+
+.cart-item {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.cart-item>img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+}
